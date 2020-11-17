@@ -86,7 +86,7 @@ function jump() {
   clearInterval(downTimerId);
   isJumping = true;
   upTimerId = setInterval(function upTimerCallback() {
-    doodlerBottomSpace += 20;
+    doodlerBottomSpace += 18;
     doodler.style.bottom = `${doodlerBottomSpace}px`;
 
     if (doodlerBottomSpace > startingPoint + 200) {
