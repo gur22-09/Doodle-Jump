@@ -10,25 +10,50 @@ body {
   display: grid;
   place-items: center;
   padding: 2em 0;
+  -webkit-font-smoothing: antialiased;
+  overflow-y: hidden;
 }
 
 .grid {
   width: 400px;
-  min-height: 600px;
+  min-height: 600px; /*91.5vh;*/
   background-color: greenyellow;
   position: relative;
+  background-image: url("./assets/background.png");
+  background-size: cover;
+  box-shadow: 0 20px 50px #dadada;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.start {
+  padding: 10px 15px;
+  background: transparent;
+  color: #333;
+  margin: 10px;
 }
 
 .doodler {
   width: 60px;
   height: 85px;
   position: absolute;
-  background-color: red;
+  background-image: url("./assets/ninjaDoodle.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.score {
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .platform {
   width: 85px;
   height: 15px;
   position: absolute;
-  background-color: green;
+  background-image: url("./assets/platform.png");
+  border-radius: 100px;
+  border: 1px solid #333;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0, 0.8);
 }
