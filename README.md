@@ -1,7 +1,7 @@
 # Doodle-Jump
 🎮🚀
 
-A simple JS implementation of one of my favourite games Doodle Jump.
+A simple JS implementation of one of my favourite games Doodle Jump. Sadly doodle seems to be on crack atm.
 
 ## Controls
 * press left arrow key to move "Left"
